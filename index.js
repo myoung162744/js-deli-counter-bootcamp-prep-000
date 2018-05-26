@@ -11,9 +11,8 @@ function nowServing(katzDeliLine) {
   var announcement = 'Currently serving ' + katzDeliLine[0]
   return announcement
   katzDeliLine.unshift()
-  }
   if (katzDeliLine.length === 0){
     var line = "There is nobody waiting to be served!"
-    return default
+    return line
   }
 }
