@@ -9,7 +9,8 @@ function takeANumber(katzDeliLine, name) {
 
 function nowServing() {
   while(katzDeliLine.length > 0){
-    return katzDeliLine[0]
+    var announcement = 'Currently serving ' + katzDeliLine[0]
+    return announcement
     katzDeliLine.unshift()
   }
   return "There is nobody waiting to be served!"
