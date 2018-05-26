@@ -13,7 +13,7 @@ function nowServing(katzDeliLine) {
   katzDeliLine.unshift()
   }
   if (katzDeliLine.length === 0){
-    "There is nobody waiting to be served!"
+    var default = "There is nobody waiting to be served!"
     return default
   }
 }
