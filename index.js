@@ -18,14 +18,17 @@ function nowServing(array) {
     return line
   }
 }
-
+var line = []
 function currentLine(array) {
   let i = 0
   while (i < array.length) {
-    var line = ''
+    line.push(' '+ [i+1] + '. ' + array[i])
     i++
-    line + i + '. ' + array[i-1] + ','
   }
-  currentLine = "The line is currently: " + line
-  return currentLine
+  if (array.length === 0) {
+    var noone = 'The line is currently empty.'
+    return noone
+  } else {
+    return("The line is currently: " + line)
+  }
 }
