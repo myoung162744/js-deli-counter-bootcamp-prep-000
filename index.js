@@ -27,4 +27,5 @@ function currentLine(array) {
     line + i + '. ' + array[i-1] + ','
   }
   currentLine = "The line is currently: " + line
+  return currentLine
 }
