@@ -29,6 +29,6 @@ function currentLine(array) {
     var noone = 'The line is currently empty.'
     return noone
   } else {
-    return("The line is currently: " + line)
+    return("The line is currently:" + line)
   }
 }
