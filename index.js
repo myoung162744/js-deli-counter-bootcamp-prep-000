@@ -18,3 +18,13 @@ function nowServing(array) {
     return line
   }
 }
+
+function currentLine(array) {
+  let i = 0
+  while (i < array.length) {
+    var line = ''
+    i++
+    line + i + '. ' + array[i-1] + ','
+  }
+  currentLine = "The line is currently: " + line
+}
